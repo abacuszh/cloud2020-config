@@ -13,6 +13,12 @@ spring:
     url: jdbc:postgresql://localhost:5432/springclouddb
     username: user
     password: admin
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    
     
 mybatis:
   mapperLocations: classpath:mapper/*Mapper.xml
@@ -24,3 +30,10 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://eureka10081.org:10081/eureka/,http://eureka10080.org:10080/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
