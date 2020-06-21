@@ -1,5 +1,5 @@
 config:
-  info: "cloud-payment-service-dev.yml, version 3"
+  info: "cloud-payment-service-dev.yml, version 4"
 
 spring:
   application:
