@@ -1,2 +1,2 @@
 config:
-  info: "spring cloud config practice config-dev.yml"
+  info: "spring cloud config practice config-prod.yml"
